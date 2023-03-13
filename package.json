@@ -1,17 +1,13 @@
 {
-  "name": "mern_typescript",
+  "name": "user login crud app",
   "version": "1.0.0",
-  "description": "MERN Stack with ES6 and Typescript Boilerplate",
+  "description": "User login and register crud app using node js and express js",
   "main": "server.js",
   "scripts": {
-    "client-install": "npm install --prefix client",
     "start": "node server.js",
-    "server": "nodemon server.js --exec babel-node --presets babel-preset-env",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "dev": "nodemon server.js",
   },
-  "author": "Brad Traversy",
+  "author": "sijahmn",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
