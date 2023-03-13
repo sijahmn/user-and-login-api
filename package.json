@@ -1,7 +1,7 @@
 {
-  "name": "user login crud app",
+  "name": "user login crud api",
   "version": "1.0.0",
-  "description": "User login and register crud app using node js and express js",
+  "description": "User login and register crud api using node js and express js",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
